@@ -1,0 +1,57 @@
+/*1920px
+  1024px
+  360px */
+
+@media screen and (min-width: 768px) {
+  main {
+    max-width: 600px;
+    margin: auto;
+  }
+  .todo-counter {
+    left: 17%;
+  }
+
+  .todo-delete-completed {
+    right: 17%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    max-width: 600px;
+    margin: auto;
+  }
+  .todo-counter {
+    left: 25%;
+  }
+
+  .todo-delete-completed {
+    right: 25%;
+  }
+  .add-form {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .todo-counter {
+    left: 34%;
+  }
+
+  .todo-delete-completed {
+    right: 34%;
+  }
+}
+
+@media screen and (min-width: 1921px) {
+  main {
+    max-width: 800px;
+  }
+  .todo-counter {
+    left: 32%;
+  }
+
+  .todo-delete-completed {
+    right: 32%;
+  }
+}

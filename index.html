@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/media.css" />
+    <link rel="icon" href="images/favi.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/34bfaba224.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>To-Do: Plan ahead!</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header header">your to-do list</div>
+    </nav>
+
+    <main>
+      <!-- <div class="wrapper"> -->
+      <div class="form">
+        <form class="add-form" method="post">
+          <div class="form__expand-button">
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <input
+            class="add-form__input"
+            type="text"
+            aria-label="Description"
+            placeholder="What needs to be done?"
+            required
+          />
+        </form>
+      </div>
+      <ul class="todo-list"></ul>
+      <footer class="todo-footer hidden">
+        <div class="todo-counter">Counter</div>
+        <ul class="todo-filters">
+          <li class="todo-filters__all todo-filter active">All</li>
+          <li class="todo-filters__active todo-filter">Active</li>
+          <li class="todo-filters__completed todo-filter">Completed</li>
+        </ul>
+        <button class="todo-delete-completed hidden">Clear</button>
+      </footer>
+      <!-- </div> -->
+    </main>
+
+    <footer class="footer">
+      <div class="socials">
+        <a href="https://vk.com/okaystorm" class="socials__link"
+          ><i class="fa-brands fa-vk"></i>
+        </a>
+        <a href="https://github.com/okaystorm" class="socials__link">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://t.me/okaystorm" class="socials__link">
+          <i class="fa-brands fa-telegram"></i>
+        </a>
+      </div>
+    </footer>
+
+    <template id="new-task-template">
+      <li class="todo-list-item active">
+        <label>
+          <input type="checkbox" class="todo-list-input" />
+          <span></span>
+        </label>
+        <button class="todo-list-delete">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </li>
+    </template>
+
+    <script src="scripts/app.js" type="module"></script>
+  </body>
+</html>
