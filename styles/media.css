@@ -28,9 +28,6 @@
   .todo-delete-completed {
     right: 25%;
   }
-  .add-form {
-    max-width: 100%;
-  }
 }
 
 @media screen and (min-width: 1440px) {
