@@ -133,7 +133,7 @@ nav {
 .todo-list-input:checked + span::before {
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("snp-to-do/images/checkmark.png");
+  background-image: url("../images/checkmark.png");
   background-size: 1.3em;
 }
 
