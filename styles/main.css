@@ -40,6 +40,8 @@ nav {
   display: flex;
   justify-content: center;
   padding-top: 20px;
+  height: 80%;
+  margin: 0 auto;
 }
 
 .add-form__input {
