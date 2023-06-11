@@ -14,6 +14,10 @@
   .todo-delete-completed {
     right: 17%;
   }
+
+  .add-form__input {
+    max-width: 600px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -50,5 +54,9 @@
 
   .todo-delete-completed {
     right: 32%;
+  }
+
+  .add-form__input {
+    max-width: 800px;
   }
 }
