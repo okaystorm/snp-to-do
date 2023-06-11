@@ -34,7 +34,8 @@ nav {
   display: flex;
   justify-content: center;
   padding-top: 20px;
-  max-width: 325px;
+  max-width: 280px !important;
+  margin: 0 auto;
 }
 
 .add-form__input {
